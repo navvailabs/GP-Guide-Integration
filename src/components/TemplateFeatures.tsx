@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { GradientHeading } from '@/components/ui/GradientHeading';
+import newImage from '@/Assets/1.png';
 
 const featureSections = [
     {
@@ -13,7 +14,7 @@ const featureSections = [
             { icon: 'https://cdn.prod.website-files.com/636496d3f0ebfdaba9784655/6869ff89f9a56751f1b4b45f_clock.svg', text: 'Swap out sections in seconds with variants' },
         ],
         visuals: {
-            main: 'https://cdn.prod.website-files.com/636496d3f0ebfdaba9784655/6704add93a92e1395f7c877d_ec53fca6814369cf997b11a201a3688b_invite-modal.svg',
+            main: newImage,
             float1: 'https://cdn.prod.website-files.com/636496d3f0ebfdaba9784655/6364b72e0bb372300f554627_user-koray-okumus.svg',
             float2: 'https://cdn.prod.website-files.com/636496d3f0ebfdaba9784655/6364b72e0bb372aaa9554625_user-ava-wright.svg',
             float3: 'https://cdn.prod.website-files.com/636496d3f0ebfdaba9784655/6704a2089eaef119f2ebe079_ed4165a2632f4fe580b28256e0802468_variants.svg',
